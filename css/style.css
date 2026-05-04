@@ -227,8 +227,13 @@ body {
 
   .map {
 
-    font-size: 1em;
+    font-size: 0.8em;
 
+  }
+
+  .map svg{
+  height:18px;
+   height:18px;
   }
 
   .avatar {
