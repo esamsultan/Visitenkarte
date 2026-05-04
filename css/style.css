@@ -166,8 +166,15 @@ body {
 }
 
 @media(max-width: 768px) {
+  .main-container {   
+    overflow-x: hidden; 
+  }
+
+  .left, .right {
+    min-width: 0; 
+  }
   .subscrib-left {
-    font-size: 0, 3em;
+    font-size: 0.9em;
   }
 
   .title-left {
@@ -175,7 +182,7 @@ body {
   }
 
   .left h1 {
-    font-size: 1.3em;
+    font-size: 1em;
   }
 
   .list li {
@@ -187,37 +194,45 @@ body {
     font-size: 0.5em;
   }
   .right h1 {
-    font-size: 2em;
+    font-size: 1em;
   }
 
   .subscrib-right {
-    font-size: 0, 3em;
+    font-size: 0.9em;
   }
 
   .title-right {
-    font-size: 1.5em;
+    font-size: 1em;
   }
 
   .buttons {
-    margin: 10px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+   margin: 0.2em 0.6em ;
   }
 
   .btn-primary,
   .btn-secondary {
-    padding: 0.4em 0.6em;
+    padding: 0.1em 0.2em;
   }
 
   .map {
 
-    font-size: 1.5em;
+    font-size: 1em;
 
   }
 
   .avatar {
-    width: 10em;
-    height: 10em;
+    width: 6em;
+    height: 6em;
     border-radius: 50%;
     border: 2px solid #d9e2f3;
     /* weißer Hintergrund*/
   }
+   .list {
+    display: none;
+  }
+
 }
