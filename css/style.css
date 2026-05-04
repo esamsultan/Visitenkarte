@@ -167,11 +167,14 @@ body {
 
 @media(max-width: 768px) {
 
+  *{
+       overflow-y: hidden;
+  }
   .main-container {   
     overflow-x: hidden; 
     height: auto;
     min-height: 100vh;
-    overflow-y: hidden;
+ 
   }
 
   .left, .right {
